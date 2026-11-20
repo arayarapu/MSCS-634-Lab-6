@@ -1,0 +1,10 @@
+Analysis used 4,518 retained UK invoices and 65 product columns.
+Minimum support was 1.5%; maximum itemset length was 3.
+Apriori found 489 itemsets; FP-Growth found 489.
+The frequent itemset sets were identical; max common-support difference = 0.00e+00.
+Apriori median runtime: 0.0323s; FP-Growth median runtime: 0.0403s.
+Observed faster algorithm: Apriori (only for this run and configuration).
+Apriori produced 451 rules with confidence >= 35%; 451 also met lift >= 1.20.
+Apriori can be expensive when candidate combinations grow; FP-Growth requires tree construction and its advantage depends on the data distribution.
+Challenges included cleaning canceled invoices, representing each basket as Boolean product presence, and limiting combinatorial growth with transparent sampling and support settings.
+Limitations: one geographic market, invoice sampling, top-item filtering, maximum itemset length, and single-machine benchmark timings. Associations are not causal relationships.

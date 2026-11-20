@@ -1,0 +1,8 @@
+# Data is downloaded from UCI at notebook runtime
+data/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
